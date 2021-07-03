@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0e0e0e;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+.container{
+    padding: 0 5%;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+/*header section*/
+header{
+    background: #0f0f0f;
+    display: flex;
+    padding: 10px 50px;
+}
+#logo{
+}
+header p{
+    margin: 15px 365px 15px 50px;
+    color: #ffbc00;
+    font-size: 20px;
+}
+header p:hover{
+    cursor: pointer;
+    color: white;
+}
+.top-nav{
+    width: 50%;
+}
+nav{
+    justify-content: flex-end;
+    display: flex;
+}
+nav a{
+    color: white;
+    margin: 20px 12px;
+    padding: 3px 12px;
+    letter-spacing: 0px;
+    transition-duration: .3s;
+    font-size: 13px;
+}
+nav a:hover{
+    background-color: #ffbc00;
+    color: #111111;
+    font-weight: bolder;
+    border-radius: 3px;
+    transition-duration: .2s;
+}
+
+
+
+
+
+/*showcase section*/
+#showcase{
+    background-color: black;
+    color: white;
+    display: flex;
+    min-height: 550px;
+}
+.show-box{
+    margin-top: 70px;
+    width: 50%;
+}
+#showcase img{
+    width: 500px;
+}
+#show-des{
+    padding: 30px;
+    cursor: pointer;
+}
+#show-des h1{
+    margin-top: -20px;
+}
+#show-des span:hover{
+    color: #ffbc00;
+}
+#show-des p{
+    margin-bottom: 50px;
+}
+#show-des a{
+    font-size: 20px;
+    color: #ffbc00;
+    border: 1px solid #ffbc00;
+    border-radius: 5px;
+    padding: 5px 25px;
+}
+#show-des a:hover{
+    background: #ffbc00;
+    color: black;
+}
